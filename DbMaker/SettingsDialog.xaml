@@ -1,0 +1,51 @@
+<Window x:Class="DbMaker.SettingsDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:DbMaker"
+        mc:Ignorable="d"
+        Title="Settings" Height="250" Width="400"
+        WindowStartupLocation="CenterOwner">
+    <Grid>
+
+        <Grid Margin="10" >
+            <Grid.Resources>
+                <Style TargetType="{x:Type TextBox}">
+                    <Setter Property="Margin" Value="0,0,0,4" />
+                </Style>
+            </Grid.Resources>
+            
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" SharedSizeGroup="Label" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Label Grid.Row="0" Grid.Column="0" Content="DB Number:" />
+            <TextBox Grid.Row="0" Grid.Column="1" Text="{Binding DbNumber}"/>
+            <Label Grid.Row="1" Grid.Column="0" Content="Title:" />
+            <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding Title}"/>
+            <Label Grid.Row="2" Grid.Column="0" Content="Author:" />
+            <TextBox Grid.Row="2" Grid.Column="1" Text="{Binding Author}"/>
+            <Label Grid.Row="3" Grid.Column="0" Content="Family:" />
+            <TextBox Grid.Row="3" Grid.Column="1" Text="{Binding Family}"/>
+            <Label Grid.Row="4" Grid.Column="0" Content="Name:" />
+            <TextBox Grid.Row="4" Grid.Column="1" Text="{Binding Name}"/>
+            <Label Grid.Row="5" Grid.Column="0" Content="Version:" />
+            <TextBox Grid.Row="5" Grid.Column="1" Text="{Binding Version}"/>
+            <Label Grid.Row="6" Grid.Column="0" Content="UDT Name:" />
+            <TextBox Grid.Row="6" Grid.Column="1" Text="{Binding UdtName}"/>
+        </Grid>
+
+    </Grid>
+</Window>

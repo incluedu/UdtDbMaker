@@ -1,0 +1,15 @@
+D:\c#\c#Projects\dbmaker\DbMaker\bin\Release\DbMaker.exe.config
+D:\c#\c#Projects\dbmaker\DbMaker\bin\Release\DbMaker.exe
+D:\c#\c#Projects\dbmaker\DbMaker\bin\Release\DbMaker.pdb
+D:\c#\c#Projects\dbmaker\DbMaker\obj\Release\DbMaker.csprojAssemblyReference.cache
+D:\c#\c#Projects\dbmaker\DbMaker\obj\Release\MainWindow.g.cs
+D:\c#\c#Projects\dbmaker\DbMaker\obj\Release\App.g.cs
+D:\c#\c#Projects\dbmaker\DbMaker\obj\Release\DbMaker_MarkupCompile.cache
+D:\c#\c#Projects\dbmaker\DbMaker\obj\Release\DbMaker_MarkupCompile.lref
+D:\c#\c#Projects\dbmaker\DbMaker\obj\Release\MainWindow.baml
+D:\c#\c#Projects\dbmaker\DbMaker\obj\Release\DbMaker.g.resources
+D:\c#\c#Projects\dbmaker\DbMaker\obj\Release\DbMaker.Properties.Resources.resources
+D:\c#\c#Projects\dbmaker\DbMaker\obj\Release\DbMaker.csproj.GenerateResource.cache
+D:\c#\c#Projects\dbmaker\DbMaker\obj\Release\DbMaker.csproj.CoreCompileInputs.cache
+D:\c#\c#Projects\dbmaker\DbMaker\obj\Release\DbMaker.exe
+D:\c#\c#Projects\dbmaker\DbMaker\obj\Release\DbMaker.pdb
