@@ -27,7 +27,7 @@
             </MenuItem>
         </Menu>
 
-        <StackPanel Grid.Row="1" Grid.Column="0" Margin="5" Orientation="Horizontal">
+        <ToolBar Grid.Row="1" Grid.Column="0" ToolBarTray.IsLocked="True">
             <Button fa:Awesome.Content="Play" Padding="5" Click="OnClick_Create" ToolBar.OverflowMode="Never"
                     ToolTip="Create DB" />
             <Button fa:Awesome.Content="Cog" Padding="5" Click="OnClick_Settings" ToolBar.OverflowMode="Never"
@@ -35,8 +35,8 @@
             <Label Content="DB Number:" />
             <TextBox Width="100" Text="{Binding DbNumber, Mode=TwoWay}" />
             <Label Content="UDT Name:" />
-            <TextBox Width="200" Text="{Binding UdtName, Mode=TwoWay}" />
-        </StackPanel>
+            <TextBox Width="150" Text="{Binding UdtName, Mode=TwoWay}" />
+        </ToolBar>
 
         <TabControl Grid.Row="2" Grid.Column="0">
             <TabItem Header="Input">
