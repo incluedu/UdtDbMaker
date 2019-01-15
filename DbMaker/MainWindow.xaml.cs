@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Linq;
 using System.Windows;
 
 namespace DbMaker
@@ -9,14 +8,23 @@ namespace DbMaker
     /// </summary>
     public partial class MainWindow
     {
+        /*
+         * VARIBLES
+         */
         private readonly Settings _settings = new Settings();
 
+        /*
+         * CONSTRUCTORS
+         */
         public MainWindow()
         {
             InitializeComponent();
             DataContext = _settings;
         }
 
+        /*
+         * EVENT HANDLER
+         */
         private void OnClick_Exit(object sender, RoutedEventArgs e)
         {
             lblStatusBar.Text = "Status: Exit Application";
@@ -30,10 +38,12 @@ namespace DbMaker
 
         private void OnClick_Create(object sender, RoutedEventArgs e)
         {
-            outputTextBox.Text = Create();
-
-            outputTabItem.IsSelected = true;
-            lblStatusBar.Text = "Status: Creating ...";
+            if (CheckOk())
+            {
+                outputTextBox.Text = Create();
+                outputTabItem.IsSelected = true;
+                lblStatusBar.Text = "Status: Creating ...";
+            }
         }
 
         private void OnClick_Settings(object sender, RoutedEventArgs e)
@@ -50,12 +60,15 @@ namespace DbMaker
         }
 
 
+        /*
+         * PRIVATE METHODS
+         */
         private string Create()
         {
-            return CreateHeader() + CreateBoddy() + CreateFooter();
+            return CreateHeader() + CreateBody() + CreateFooter();
         }
 
-        private object CreateBoddy()
+        private object CreateBody()
         {
             String boddy = "";
             string nl = "\n";
@@ -104,6 +117,25 @@ namespace DbMaker
 
 
             return footer;
+        }
+
+        private bool CheckOk()
+        {
+            if (_settings.UdtName == "")
+            {
+                MessageBox.Show(this, "UDT Name cannot empty", "Alert", MessageBoxButton.OK,
+                    MessageBoxImage.Information);
+                return false;
+            }
+
+            if (_settings.DbNumber < 1 || _settings.DbNumber > 4096)
+            {
+                MessageBox.Show(this, "DB Number must between 1 and 4096", "Alert", MessageBoxButton.OK,
+                    MessageBoxImage.Information);
+                return false;
+            }
+
+            return true;
         }
     }
 }

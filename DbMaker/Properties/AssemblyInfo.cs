@@ -1,6 +1,4 @@
 ﻿using System.Reflection;
-using System.Resources;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Windows;
 
@@ -10,9 +8,9 @@ using System.Windows;
 [assembly: AssemblyTitle("DbMaker")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("DbMaker")]
-[assembly: AssemblyCopyright("Copyright ©  2019")]
+[assembly: AssemblyCompany("LTW Intralogistics")]
+[assembly: AssemblyProduct("UDT DbMaker")]
+[assembly: AssemblyCopyright("Copyright ©  2019 Patric Hollenstein")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
