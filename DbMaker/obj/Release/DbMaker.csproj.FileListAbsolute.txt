@@ -13,3 +13,8 @@ D:\c#\c#Projects\dbmaker\DbMaker\obj\Release\DbMaker.csproj.GenerateResource.cac
 D:\c#\c#Projects\dbmaker\DbMaker\obj\Release\DbMaker.csproj.CoreCompileInputs.cache
 D:\c#\c#Projects\dbmaker\DbMaker\obj\Release\DbMaker.exe
 D:\c#\c#Projects\dbmaker\DbMaker\obj\Release\DbMaker.pdb
+D:\c#\c#Projects\dbmaker\DbMaker\bin\Release\FontAwesome.WPF.dll
+D:\c#\c#Projects\dbmaker\DbMaker\bin\Release\FontAwesome.WPF.xml
+D:\c#\c#Projects\dbmaker\DbMaker\obj\Release\SettingsDialog.g.cs
+D:\c#\c#Projects\dbmaker\DbMaker\obj\Release\SettingsDialog.baml
+D:\c#\c#Projects\dbmaker\DbMaker\obj\Release\DbMaker.csproj.CopyComplete

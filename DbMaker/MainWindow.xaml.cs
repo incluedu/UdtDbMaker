@@ -123,14 +123,16 @@ namespace DbMaker
         {
             if (_settings.UdtName == "")
             {
-                MessageBox.Show(this, "UDT Name cannot empty", "Alert", MessageBoxButton.OK,
+                lblStatusBar.Text = "Status: Warning: UDT name cannot empty!";
+                MessageBox.Show(this, "UDT name cannot empty", "Alert", MessageBoxButton.OK,
                     MessageBoxImage.Information);
                 return false;
             }
 
             if (_settings.DbNumber < 1 || _settings.DbNumber > 4096)
             {
-                MessageBox.Show(this, "DB Number must between 1 and 4096", "Alert", MessageBoxButton.OK,
+                lblStatusBar.Text = "Status: Warning: DB number must between 1 and 4096!";
+                MessageBox.Show(this, "DB number must between 1 and 4096", "Alert", MessageBoxButton.OK,
                     MessageBoxImage.Information);
                 return false;
             }

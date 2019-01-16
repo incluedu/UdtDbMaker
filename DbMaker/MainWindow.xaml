@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:DbMaker"
         xmlns:fa="http://schemas.fontawesome.io/icons/"
         mc:Ignorable="d"
-        Title="{Binding WindowTitle}">
+        Title="{Binding WindowTitle}" Icon="Resources/logo64px.png">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />

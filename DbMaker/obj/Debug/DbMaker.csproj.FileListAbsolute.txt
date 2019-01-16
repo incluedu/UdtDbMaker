@@ -18,4 +18,3 @@ D:\c#\c#Projects\dbmaker\DbMaker\bin\Debug\FontAwesome.WPF.xml
 D:\c#\c#Projects\dbmaker\DbMaker\obj\Debug\DbMaker.csproj.CopyComplete
 D:\c#\c#Projects\dbmaker\DbMaker\obj\Debug\SettingsDialog.g.cs
 D:\c#\c#Projects\dbmaker\DbMaker\obj\Debug\SettingsDialog.baml
-D:\c#\c#Projects\dbmaker\DbMaker\obj\Debug\DbMaker_Content.g.cs
